@@ -20,7 +20,7 @@
         android:textSize="36sp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView2P"
         android:layout_width="156dp"
         android:layout_height="251dp"
         android:layout_alignParentStart="true"
