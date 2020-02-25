@@ -4,63 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/fragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="77dp"
+        android:text="Together, We Flourish"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="156dp"
-            android:layout_marginHorizontal="0mm"
-            android:text="Together, We Flourish"
-            android:textColor="@android:color/white"
-            android:textSize="36sp" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="25mm"
-            android:layout_marginVertical="50mm"
-            android:text="Button" />
-    </FrameLayout>
-
-    <!--    <ImageView-->
-<!--        android:id="@+id/imageView2P"-->
-<!--        android:layout_width="156dp"-->
-<!--        android:layout_height="251dp"-->
-<!--        android:layout_alignParentStart="true"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_marginStart="209dp"-->
-<!--        android:layout_marginBottom="78dp"-->
-<!--        app:srcCompat="@drawable/penguin" />-->
-
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView3"-->
-<!--        android:layout_width="168dp"-->
-<!--        android:layout_height="136dp"-->
-<!--        android:layout_alignParentStart="true"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_marginStart="86dp"-->
-<!--        android:layout_marginBottom="261dp"-->
-<!--        app:srcCompat="@drawable/chatbubble" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentStart="true"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_marginStart="141dp"-->
-<!--        android:layout_marginBottom="330dp"-->
-<!--        android:text="Meep"-->
-<!--        android:textColor="@android:color/white"-->
-<!--        android:textSize="24sp" />-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="307dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Start your journey"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
 </RelativeLayout>
