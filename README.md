@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Activity-Kotlin-Example
-=======
+
 # Android-Example-Series-Part-I
 **Before Android 3.0 , Activities were used to switch between different screens. 
 If your app had two screens, you would need two Activities. However, the issue 
@@ -57,4 +57,3 @@ However, need to enlarge to fit screen size (Easier to do)
 ## On Run
 Faster transition between fragments
 
->>>>>>> 20076240643270530b42bc11f2a6ea9b120be94e
