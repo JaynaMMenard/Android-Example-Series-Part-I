@@ -1,7 +1,6 @@
 # Android-Example-Series-Part-I
 
 
-# Android-Example-Series-Part-I
 **Before Android 3.0 , Activities were used to switch between different screens. 
 If your app had two screens, you would need two Activities. However, the issue 
 arose that apps were not properly rendered onto the screen of tablets and phones. 
