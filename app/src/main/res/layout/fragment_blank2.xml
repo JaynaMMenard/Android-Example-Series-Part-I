@@ -21,14 +21,15 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="488dp"
         android:text="Welcome to iGloo!"
         android:textColor="@android:color/white"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
 
     <ImageView
         android:id="@+id/imageView2P"
@@ -36,10 +37,11 @@
         android:layout_height="304dp"
         android:layout_marginVertical="5mm"
         android:layout_marginTop="167dp"
-        android:layout_marginEnd="52dp"
         android:src="@drawable/penguin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv"
         app:layout_constraintVertical_bias="1.0" />
 
