@@ -1,9 +1,7 @@
 package com.jrkk61.activityexample
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,11 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button.setOnClickListener {
-//            val intent = Intent(this, ActivityExample2::class.java)
-            startActivity(Intent(this, ActivityExample2::class.java))
+        val fragment = BlankFragment()
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.contaner, fragment)
+        transaction.commit()
 
+    }
 
-        }
-            }
 }
